@@ -1,53 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE= edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0>"
-        <title>Produtos</title>
+        <title>Produtos - Barbearia Alura</title>
 
-        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
-
-    <body>
+    <body> 
         <header>
-            <h1><img src="logo.png"></h1>
+            <div class="caixa">
+                <h1><img src="logo.png"></h1>
+
+          <nav>
+             <ul>
+               <li><a href="">Home</a></li>
+         <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+                   </ul>
+           </nav>
+            </div>
         </header>
 
-    <div class="cabeçalho">
-            <h1><img src="logo.png" alt=""></h1>
+        <main>
+            <ul class="produtos">
+                <li>
+                    <h2>Cabelo</h2>
+           <img src="cabelo.jpg">
+                    <p class="produtos-descricao">Na tesoura ou na máquina, como o cliente preferir</p>
+               <p class="produtos-preco">R$ 25,00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+            <img src="barba.jpg">
+                    <p class="produtos-descricao">Corte e desenho profissional de barba</p>
+             <p class="produtos-preco">R$ 18,00</p>
+           </li>
+          <li>
+                    <h2>Cabelo + Barba</h2>
+    <img src="cabelo+barba.jpg">
+           <p class="produtos-descricao">Pacote completo de cabelo e barba</p>
+         <p class="produtos-preco">R$ 35,00</p>
+                </li>
+            </ul>
+        </main>
 
-    <nav>
-        <ul>
-            <li> <a href=" https://natlinda.github.io/Barbearia-Alura-Nat-home/">home</a></li>
-            <li> <a href="produtos.html">produtos</a></li>
-            <li> <a href="contato.html">contato</a></li>
-        </ul>
-    </nav>
-    </div>
-
-    <main>
-        <ul class="produtos">
-            <li>
-                <h2>Cabelo</h2>
-                <img src="cabelo.jpg" alt="">
-                <p class="descrição">Na tesoura ou na máquina como o cliente preferir</p>
-                <p class="preço">R$25,00</p>
-            </li>
-            <li>
-                <h2>Barba</h2>
-                <img src="barba.jpg" alt="">
-                <p class="descrição">Corte e desenho profissional de barba</p>
-                <p class="preço">R$18,00</p>
-            </li>
-            <li>
-                <h2>cabelo+barba</h2>
-                <img src="cabelo+barba.jpg" alt="">
-                <p class="descrição">Pacote completo de cabelo e barba</p>
-                <p class="preço">R$35,00</p>
-            </li>
-        </ul>
-    </main>
-    </nav>
+        <footer>
+            <img src="logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
     </body>
 </html>

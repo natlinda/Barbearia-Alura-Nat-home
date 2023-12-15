@@ -9,7 +9,6 @@ header {
     margin: 0 auto;
 }
 
-
 nav {
     position: absolute;
     top: 110px;
@@ -18,15 +17,15 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px ;
+    margin: 0 0 0 15px;
 }
 
 nav a {
-   text-transform: uppercase;
-   color: #000000;
-   font-weight: bold;
-   font-size: 22px;
-   text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -53,84 +52,41 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+    border-color: #C78C19;
 }
 
 .produtos li:active {
-	border-color: #088C19;
+    border-color: #088C19;
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+    font-size: 34px;
 }
 
 .produtos h2 {
-	font-size: 30px;
-	font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.produto-descricao {
-	font-size: 18px;
+.produtos-descricao {
+    font-size: 18px;
 }
 
-.produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
+.produtos-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
 
 .copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
-}
-
-form {
-	margin: 40px 0;
-}
-
-form label, form legend {
-	display:block;
-	font-size: 20px;
-	margin: 0 0 10px;
-}
-
-.input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-}
-
-.checkbox {
-	margin: 20px 0;
-}
-
-.enviar {
-	width:40%;
-	padding: 15px 0;
-	background: orange;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	border: none;
-	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.enviar:hover {
-	background: darkorange;
-	transform: scale(1.2);
-}
